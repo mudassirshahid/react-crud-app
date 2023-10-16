@@ -53,7 +53,7 @@ function FetchData() {
                 <td>{item.id}</td>
                 <td>{item.first_name} {item.last_name}</td>
                 <td>{item.email}</td>
-                <td className='flex justify-between mt-8 xl:gap-0 gap-4'>
+                <td className='flex justify-between xl:mt-7 mt-2 xl:gap-0 gap-4'>
                 <button className="py-1 px-9 rounded text-[#008212] bg-[#39b54a79] font-semibold btn-success capitalize"  onClick={()=>document.getElementById('my_modal_3').showModal()}>Edit</button>
                 <button className="py-1 px-9 rounded text-[#D80000] bg-[#d8000075] font-semibold btn-error capitalize">Delete</button>
                 </td>
