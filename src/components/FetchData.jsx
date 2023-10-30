@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import AddCustomer from './AddCustomer';
 
 function FetchData() {
   const [data, setData] = useState([]);
@@ -67,9 +66,6 @@ function FetchData() {
         </table>
       
     </div>
-
-
-{/* <AddCustomer  setData={setData} /> */}
 </>
   );
 }
