@@ -36,6 +36,11 @@ const AddCustomer = () => {
   //   console.log(data,'this is my code')
   // }
 
+  const addCustomerFunc = (e) => {
+    e.preventDefault()
+    alert("Add Successfully")
+  }
+
   return (
     <>
       {/* You can open the modal using document.getElementById('ID').showModal() method */}
@@ -97,8 +102,8 @@ const AddCustomer = () => {
 
             <div>
               <button
-                type="button"
-                onClick={() => addCustomerFunc()}
+                type="submit"
+                onClick={addCustomerFunc}
                 className="flex w-full justify-center rounded-md bg-gradient-to-r from-[#57BC90] via-[#147c6d] to-[#004B40] px-3 py-2 text-sm uppercase font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Add Customer
